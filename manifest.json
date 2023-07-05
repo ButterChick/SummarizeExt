@@ -1,11 +1,15 @@
 {
-    "name": "Covid-19 Stats UK",
-    "version": "1.0.0",
-    "description": "latest covid data of UK",
+    "name": "SummarizEXT",
+    "version": "0.0.1",
+    "description": "Summary of terms and condition",
     "manifest_version": 3,
-    "author": "Sampurna Chapagain",
-    "action":{
-        "default_popup": "index.html",
-        "default_title": "Latest Covid Report"
-    }
+    "author": "Dhruv Phooli",
+    "permissions": ["activeTab", "storage", "scripting", "tabs"],
+    "host_permissions" : ["*://*/*"],
+
+
+
+
+
+    "default_popup" : "index.html"
 }
