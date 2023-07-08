@@ -6,10 +6,12 @@
     "author": "Dhruv Phooli",
     "permissions": ["activeTab", "storage", "scripting", "tabs"],
     "host_permissions" : ["*://*/*"],
-
-
-
-
-
-    "default_popup" : "index.html"
+    "icons" : {
+        "128" : "/images/icon.png"
+    },
+    
+    "browser_action" : {
+        "default_icon" : "",
+        "default_popup" : "index.html"
+    }
 }

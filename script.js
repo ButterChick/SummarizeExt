@@ -1,9 +1,4 @@
-async function fetchData() {
-    const res=await fetch ("https://api.coronavirus.data.gov.uk/v1/data");
-    const record=await res.json();
-    document.getElementById("date").innerHTML=record.data[0].date;
-    document.getElementById("areaName").innerHTML=record.data[0].areaName;
-    document.getElementById("latestBy").innerHTML=record.data[0].latestBy;
-    document.getElementById("deathNew").innerHTML=record.data[0].deathNew;
-}
-fetchData();
+/*"Random suffer model" is used to get the likelyhood of a person visitng a link
+on a given webpage
+We will use this to get the Terms and conditions part of a website
+*/
